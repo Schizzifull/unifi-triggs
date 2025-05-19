@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-UNIFI_USER = os.environ.get("schizzifull")
+UNIFI_USER = os.environ.get("schizzi2010@gmail.com")
 UNIFI_PASS = os.environ.get("daianschizzi665876")
 SITE_ID = "default"
 BASE_URL = "https://unifi.ui.com"
