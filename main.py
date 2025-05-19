@@ -40,3 +40,6 @@ def desativar_wifi():
             return f"Rede '{SSID_ALVO}' desativada com sucesso.", 200
 
     return "SSID não encontrado.", 404
+    if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+
